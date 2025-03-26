@@ -12,7 +12,7 @@ function Cards(props) {
           src="https://images.pexels.com/photos/31083893/pexels-photo-31083893/free-photo-of-scenic-aerial-view-of-cape-town-s-coastal-landscape.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
         />
       </div>
-      {/* Fixed all 'class' to 'className' */}
+    
       <div className="flex">
         <span>Class Warfare</span>
         <span>The Anti-Patterns</span>

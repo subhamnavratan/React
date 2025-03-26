@@ -2,7 +2,7 @@ import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 
-/* function MyApp() {
+function MyApp() {
   return (
     <div>
       <h1>Subham is learning React</h1>
@@ -17,17 +17,17 @@ const Element = (
   </a>
 );
 
-const ReactElement = React.createElement(
+const reactElement = React.createElement(
   'a',
   { href: 'https://google.com', target: '_blank', rel: 'noopener noreferrer' },
   'Click me to visit Google'
-); */
+); 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <MyApp /> */}
-    {/* {Element} */}
-    {/* {ReactElement} Now being used */}
+    <MyApp /> 
+    {Element}
+   {reactElement}
     <App />
   </StrictMode>
 );
